@@ -26,7 +26,7 @@ function DrawerNavigator() {
                 drawerActiveBackgroundColor: '#e4baa1',
             }}
         >
-            <Drawer.Screen
+            {/* <Drawer.Screen
                 name="Categoriies"
                 component={CategoriesScreen}
                 options={{
@@ -44,7 +44,7 @@ function DrawerNavigator() {
                         <Ionicons name="star" color={color} size={size} />
                     ),
                 }}
-            />
+            /> */}
         </Drawer.Navigator>
     );
 }
