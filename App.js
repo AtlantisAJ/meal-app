@@ -36,7 +36,7 @@ function DrawerNavigator() {
                     ),
                 }}
             />
-            <Drawer.Screen
+            {/* <Drawer.Screen
                 name="Favorite"
                 component={FavoriteScreen}
                 options={{
@@ -44,7 +44,7 @@ function DrawerNavigator() {
                         <Ionicons name="star" color={color} size={size} />
                     ),
                 }}
-            />
+            /> */}
         </Drawer.Navigator>
     );
 }
