@@ -45,6 +45,15 @@ function DrawerNavigator() {
                     ),
                 }}
             />
+            {/* <Drawer.Screen
+                name="Auth"
+                component={Auth}
+                options={{
+                    drawerIcon: ({ color, size }) => (
+                        <Ionicons name="star" color={color} size={size} />
+                    ),
+                }}
+            /> */}
         </Drawer.Navigator>
     );
 }
